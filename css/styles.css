@@ -1,0 +1,125 @@
+:root {
+    --site-color:#2E2F42;
+    --site-font: 'Roboto', sans-serif;  
+}
+
+body {
+    color: var(--site-color);
+    font-family: var( --site-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+.page-nav .link {
+    color:var(--site-color);
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
+}
+.address-link .link { 
+    color: var(--site-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.address-link .link:hover,
+.address-link .link:focus{
+    color: #404BBF;
+}
+.order-button{
+    background: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.order-button:hover{
+    background: #404BBF;
+}
+h1{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+p{
+    color: #434455;
+    
+}
+footer {
+background-color:var(--site-color);
+}
+.footer-text{
+    color: #F4F4FD;
+}
+.logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--site-color);
+    letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logo2{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+    letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.part-logo {
+    color: #4D5AE5;
+}
+.first-section {
+    background:var(--site-color);
+    color: #FFFFFF;
+}
+.four-section {
+    background: #F4F4FD;
+}
+.photo-team {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.filter-button {
+    background: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+
+
+}
+.filter-button:hover,
+.filter-button:active{
+    background: #404BBF;
+    color: #FFFFFF;
+}
