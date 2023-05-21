@@ -1,4 +1,7 @@
-
+:root{
+    --site-color:#434455;
+    --site-color-two:#2E2F42;
+}
 body {
     color:  #434455;
     font-family: "Roboto", sans-serif;
@@ -27,6 +30,9 @@ body {
 .page-nav .link:hover,
 .page-nav .link:focus {
     color: #404BBF;
+}
+.address{
+    font-style: normal;
 }
 .address-link .link { 
     font-family: "Roboto", sans-serif;
@@ -66,6 +72,7 @@ h2{
     line-height: 1.11;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 h3{
     font-weight: 500;
@@ -80,7 +87,7 @@ p{
     
 }
 footer {
-background-color:var(--site-color);
+background-color:var(--site-color-two);
 }
 .footer-text{
     color: #F4F4FD;
@@ -107,13 +114,13 @@ text-transform: uppercase;
     color: #F4F4FD;
 }
 .part-logo {
-    color: var(--site-color);
+    color: #2e2f42;
 }
-.first-section {
-    background:var(--site-color);
+.sec-one{
+    background:#2e2f42;
     color: #FFFFFF;
 }
-.four-section {
+.sec-four {
     background: #F4F4FD;
 }
 .photo-team {
@@ -128,11 +135,17 @@ text-transform: uppercase;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
-
-
+    font-family: "Roboto", sans-serif;
 }
 .filter-button:hover,
 .filter-button:focus{
     background: #404BBF;
     color: #FFFFFF;
+}
+.exempl {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
