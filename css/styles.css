@@ -72,7 +72,7 @@ h2{
     line-height: 1.11;
     text-transform: capitalize;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var( --site-color-two);
 }
 h3{
     font-weight: 500;
@@ -101,7 +101,7 @@ background-color:var(--site-color-two);
     letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.logo2{
+.logo-two{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -110,7 +110,7 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.part-logo2{
+.part-logo-two{
     color: #F4F4FD;
 }
 .part-logo {
