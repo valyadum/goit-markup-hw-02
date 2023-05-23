@@ -96,7 +96,7 @@ background-color:var(--site-color-two);
 }
 .footer-text{
     color: var(--light-background);
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;   
 }
 .logo{
