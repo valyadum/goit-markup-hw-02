@@ -36,7 +36,6 @@ body {
 .address-link .link { 
     font-family: "Roboto", sans-serif;
     color: var(--site-color);
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -83,21 +82,16 @@ h3{
     color: var(--site-color-two);
 }
 
-p{
-    color: var(--site-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;   
+.text{
+   color: var(--site-color); 
+   line-height: 1.5;
+   letter-spacing: 0.02em;   
 }
 footer {
 background-color:var(--site-color-two);
 }
 .footer-text{
-    color: var(--light-background);
-    line-height: 1.5;
-    letter-spacing: 0.02em;   
+    color: var(--light-background); 
 }
 .logo{
     font-family: 'Raleway',sans-serif;
